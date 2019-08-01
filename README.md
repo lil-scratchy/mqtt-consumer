@@ -1,11 +1,12 @@
-# Scratchy MQTT Consumer :tm:
+# <img src="https://avatars0.githubusercontent.com/u/53555720?s=200&v=4" width="50"/> Scratchy MQTT Consumer :tm:
 MQTT consumer for data forwarding.
 
-## Function:
-Several kinds of sensors are sending data. This data are send from the MQTT-Broker to the API from the server.
+## MQTT subscribing
+Several kinds of sensors are sending data to a MQTT broker. This app subscribes to the MQTT channel.
+ 
+## Data forwarding
+This data are send from the MQTT-Broker to the API from the server.
 
-## Params:
-no params are needed
+## Docker
+This app is hosted in a docker container.
 
-## Output:
-A specified url for every sensor to send the data in json-Format. So the server can put these datas in the database
